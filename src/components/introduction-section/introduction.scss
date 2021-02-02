@@ -1,0 +1,61 @@
+
+.intro-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "."
+      "."
+      ".";
+
+    .intro-one {
+        padding-top: 150px;
+        text-indent: 50px;
+    }
+
+    .next-section-butt {
+        margin: auto;
+        cursor: pointer;
+    }
+
+
+
+
+// typewriter component
+    .typewriter {
+        font-family: Courier, monospace;
+        display: inline-block;
+    }
+
+    .typewriter-text {
+        display: inline-block;
+          overflow: hidden;
+          letter-spacing: 2px;
+         animation: typing 5s steps(30, end), blink .75s step-end infinite;
+        white-space: nowrap;
+        font-size: 30px;
+        font-weight: 700;
+        border-right: 4px solid orange;
+        box-sizing: border-box;
+        text-indent: 200px;
+    }
+    
+    @keyframes typing {
+        from { 
+            width: 10% 
+        }
+        to { 
+            width: 90% 
+        }
+    }
+    
+    @keyframes blink {
+        from, to { 
+            border-color: transparent 
+        }
+        50% { 
+            border-color: orange; 
+        }
+    }
+  }

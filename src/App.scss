@@ -1,0 +1,16 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "."
+    "."
+    ".";
+
+    .intro, .main, .close {
+      min-height: 100vh;
+      max-height: 100vh;
+    }
+  }
+  
