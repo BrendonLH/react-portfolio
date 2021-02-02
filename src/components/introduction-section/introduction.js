@@ -1,5 +1,5 @@
 import './introduction.scss';
-import {Link, animateScroll as scroll} from 'react-scroll';
+import {Link} from 'react-scroll';
 import { faLongArrowAltDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
