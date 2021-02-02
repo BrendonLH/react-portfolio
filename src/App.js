@@ -1,3 +1,4 @@
+
 import Introduction from './components/introduction-section/introduction.js';
 import Closing from './components/closing-section/closing.js';
 import Main from './components/main-section/main.js';

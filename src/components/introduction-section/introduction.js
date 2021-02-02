@@ -1,5 +1,7 @@
 import './introduction.scss';
-
+import {Link, animateScroll as scroll} from 'react-scroll';
+import { faLongArrowAltDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Introduction() {
     return (
@@ -12,7 +14,14 @@ function Introduction() {
         </div>
         {/*  move to next section */}
         <div className='next-section-butt'>
-        <a href='#section-two' className='next-button'>next</a>
+          <Link
+            activeClass="active"
+            to="section-two"
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          ><FontAwesomeIcon icon={faLongArrowAltDown} size='2x' /></Link>
         </div>
         
       </div>

@@ -1,6 +1,4 @@
 
-
-
 .intro-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -10,13 +8,15 @@
       "."
       "."
       ".";
-    .intro-one, .intro-two, .next-section-butt {
-        border: 1px solid;
-    }
 
     .intro-one {
         padding-top: 150px;
         text-indent: 50px;
+    }
+
+    .next-section-butt {
+        margin: auto;
+        cursor: pointer;
     }
 
 
