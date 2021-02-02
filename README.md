@@ -1,3 +1,62 @@
+# Brendon's Portfolio
+
+## Author
+
+- Brendon
+
+## Links and Resources
+
+- [submission PR]()
+- [ci/cd]() (GitHub Actions)
+- [back-end server url](http://xyz.com) (when applicable)
+- [front-end application](http://xyz.com) (when applicable)
+
+## User Stories
+
+    1. As a user, I want to view a developer in a clean and readily readable way. 
+    2. As a user, I want to be guided to the information I need easily and in a comprehensible way.
+    3. As a user, I want the information presented to me to be meanigful and enlightening. 
+    4. As a user, I want to read some information on the developers background. 
+    5. As a user, I want to see the developers finished projects.
+    6. As a user, I want to know what skills they have pertaining to soft and technical skills. 
+
+
+## Description
+    - this application is designed to be a fill in the blank template for anyone that wants to use for their own portfolio. 
+
+    - This portfolio showcases several sections. One section is the title, one is the background/about, one is the showcased projects/skillsets and the final is a how to contact me with links to social media outlets. 
+
+## How to use:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
