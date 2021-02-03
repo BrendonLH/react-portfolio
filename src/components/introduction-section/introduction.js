@@ -7,8 +7,8 @@ import {useSelector} from 'react-redux';
 
 function Introduction() {
 
-  const user = useSelector( state => state.user);
-  console.log(user);
+  const name = useSelector( state => state.user.userName);
+ 
 
 
     return (
@@ -17,7 +17,7 @@ function Introduction() {
           <h1 className='typewriter'>Hello World!</h1>
         </div>
         <div className='intro-two typewriter'>
-        <h2 className='typewriter-text'>My name is {user.userName} and I am A Software Developer.</h2>
+        <h2 className='typewriter-text'>My name is {name} and I am A Software Developer.</h2>
         </div>
         {/*  move to next section */}
         <div className='next-section-butt'>

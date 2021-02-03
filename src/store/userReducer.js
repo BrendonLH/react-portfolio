@@ -1,7 +1,10 @@
 // fill out profile information here to update each section
 const user = {
     userName: 'Brendon',
-    email:'BrendonHampton1988@gmail.com',
+    email:'brendonhampton1988@gmail.com',
+    faceBook:'https://www.facebook.com/Brendon.hampton/',
+    gitHub:'https://github.com/BrendonLH',
+    linkedIn:'https://www.linkedin.com/in/brendon-hampton-37132899/',
     background1:'',
     background2:'',
     projects: [
