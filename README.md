@@ -29,6 +29,11 @@
 ## How to use:
 
 
+## Wireframe
+ ![React-Wireframe](./src/assets/wireframe/wireframe.png)
+
+
+
 
 
 
