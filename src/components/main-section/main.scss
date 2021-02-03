@@ -1,5 +1,6 @@
 .main {
     display: grid;
+    
     grid-template-columns: 1.5fr 0.1fr 1.5fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
@@ -9,4 +10,21 @@
       .section-main {
           border: 1px solid;
       }
+     
+
+    #arrows-main {
+        display: grid;
+        grid-template-columns: 1.5fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+          "."
+          ".";
+      }
+
+      .next-section-butt {
+          margin: auto;
+        cursor: pointer;
+        color: darkorange;
+    }
   }

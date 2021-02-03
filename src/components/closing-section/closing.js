@@ -1,6 +1,6 @@
 function Closing() {
     return (
-      <div className="close">
+      <div id='section-three' className="close">
         <h1>Closing Section</h1>
       </div>
     );

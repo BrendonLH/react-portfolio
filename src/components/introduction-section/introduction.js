@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Introduction() {
     return (
-      <div className="intro intro-container">
+      <div id='section-one' className="intro intro-container">
         <div className='intro-one typewriter'>
           <h1 className='typewriter'>Hello World!</h1>
         </div>
