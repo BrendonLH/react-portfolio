@@ -1,0 +1,26 @@
+.links-closing {
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 0.1fr 1.2fr 1.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      ". . . . .";
+
+      .links {
+        //   border: 1px solid;
+          margin: auto;
+          img {
+              min-width: 100px;
+              max-width: 100px;
+          }
+          a {
+              color: inherit;
+          }
+      }
+
+      .next-section-butt {
+        
+        cursor: pointer;
+        color: darkorange;
+  }
+  }
