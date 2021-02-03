@@ -26,6 +26,13 @@
 
     - This portfolio showcases several sections. One section is the title, one is the background/about, one is the showcased projects/skillsets and the final is a how to contact me with links to social media outlets. 
 
+## Libraries/Languages used
+    - react
+    - sass
+    - redux
+    - font-awesome
+    - react-scroll
+
 ## How to use:
 
 
