@@ -15,33 +15,33 @@ const user = {
     projects: [
         {
             title:'project1',
-            description: 'prject1',
-            skillsUsed: ['skill1','skill2','skill3'],
-            image:'image',
+            description: 'description',
+            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: 'github',
             url:'url'
         },
         {
             title:'project2',
-            description: 'project2',
-            skillsUsed: ['skill1','skill2','skill3'],
-            image:'image',
+            description: 'description',
+            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: 'github',
             url:'url'
         },
         {
             title:'project3',
-            description: 'project3',
-            skillsUsed: ['skill1','skill2','skill3'],
-            image:'image',
-            github: 'github',
-            url:'url'
+            description: 'description',
+            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
+            github: '#',
+            url:'#'
         },
         {
             title:'project4',
-            description: 'project4',
-            skillsUsed: ['skill1','skill2','skill3'],
-            image:'image',
+            description: 'description',
+            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: 'github',
             url:'url'
         }

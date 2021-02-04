@@ -60,13 +60,17 @@ function Main() {
               projects.map(project => (
 
                 <div className='project'>
-                  <div id='project-image'>
-                    <p>{project.image}</p>
+                  <div className='project-image'>
+                    <img src={project.image}/>
                   </div>
-                  <div id='project-info'>
-                    <li>{project.title}</li>
+                  <div className='project-info'>
+                    <h3>{project.title}</h3>
                     <li>{project.description}</li>
                     <li>{project.skillsUsed}</li>
+                    <div className='project-links'>
+                      <a href={project.github}>Github</a>
+                      <a href={project.url}>Website</a>
+                    </div>
                   </div>
                 </div>
               ))
