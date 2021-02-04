@@ -15,27 +15,35 @@ const user = {
     projects: [
         {
             title:'project1',
-            description: '',
-            skillsUsed: [],
-            img:''
+            description: 'prject1',
+            skillsUsed: ['skill1','skill2','skill3'],
+            image:'image',
+            github: 'github',
+            url:'url'
         },
         {
             title:'project2',
-            description: '',
-            skillsUsed: [],
-            img:''
+            description: 'project2',
+            skillsUsed: ['skill1','skill2','skill3'],
+            image:'image',
+            github: 'github',
+            url:'url'
         },
         {
             title:'project3',
-            description: '',
-            skillsUsed: [],
-            img:''
+            description: 'project3',
+            skillsUsed: ['skill1','skill2','skill3'],
+            image:'image',
+            github: 'github',
+            url:'url'
         },
         {
             title:'project4',
-            description: '',
-            skillsUsed: [],
-            img:''
+            description: 'project4',
+            skillsUsed: ['skill1','skill2','skill3'],
+            image:'image',
+            github: 'github',
+            url:'url'
         }
         
     ]

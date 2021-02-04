@@ -58,10 +58,9 @@
         "."
         ".";
     }
-    div  {
-      border: 1px solid;
-        p {
-          border:none;
-        }
+    #projects-scroll {
+      border: 1px solid red;
+      overflow: auto;
+      max-height: 290px;
     }
   }

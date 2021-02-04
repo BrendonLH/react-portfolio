@@ -11,8 +11,9 @@ function Main() {
   const user = useSelector(state => state.user);
   const background = user.background1;
   const backgroundTwo = user.background2;
+  const projects = user.projects;
 
-  console.log(user);
+  console.log(projects);
 
     return (
       <div className="main" id='section-two'>
@@ -54,8 +55,23 @@ function Main() {
           <header>
             <h1>Projects</h1>
           </header>
-          <div>
-            <p>projects</p>
+          <div id='projects-scroll'>
+            {
+              projects.map(project => (
+
+                <div className='project'>
+                  <div id='project-image'>
+                    <p>{project.image}</p>
+                  </div>
+                  <div id='project-info'>
+                    <li>{project.title}</li>
+                    <li>{project.description}</li>
+                    <li>{project.skillsUsed}</li>
+                  </div>
+                </div>
+              ))
+
+            }
           </div>
         </section>
       </div>
