@@ -14,33 +14,33 @@ const user = {
     // fill out as many as you need as they are mapped over anyways, you can add more remove them as needed.
     projects: [
         {
-            title:'project1',
-            description: 'description',
-            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            title:'project 1',
+            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
+            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
             image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: 'github',
             url:'url'
         },
         {
-            title:'project2',
-            description: 'description',
-            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            title:'project 2',
+            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
+            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
             image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: 'github',
             url:'url'
         },
         {
-            title:'project3',
-            description: 'description',
-            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            title:'project 3',
+            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
+            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
             image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: '#',
             url:'#'
         },
         {
-            title:'project4',
-            description: 'description',
-            skillsUsed: ['skill1 ','skill2 ','skill3'],
+            title:'project 4',
+            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
+            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
             image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
             github: 'github',
             url:'url'
