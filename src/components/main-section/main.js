@@ -3,16 +3,29 @@ import '../introduction-section/introduction.scss';
 import {Link} from 'react-scroll';
 import { faLongArrowAltDown, faLongArrowAltUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useSelector } from 'react-redux';
 
 function Main() {
+
+  // user broken down into segments
+  const user = useSelector(state => state.user);
+  const background = user.background1;
+  const backgroundTwo = user.background2;
+
+  console.log(user);
+
     return (
       <div className="main" id='section-two'>
         {/* background section area */}
-        <div id='background-main' className='section-main'>
-          <header>
-            <h1>Background</h1>
-          </header>
-        </div>
+        <section id='background-main' className='section-main'>
+            <header>
+              <h1>
+                Background
+              </h1>
+            </header>
+            <p>{background}</p>
+            <p>{backgroundTwo}</p>
+        </section>
 
       {/* arrows for scrolling up and down */}
         <div id='arrows-main' className='section-main'>
