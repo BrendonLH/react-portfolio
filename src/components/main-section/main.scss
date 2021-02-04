@@ -1,6 +1,6 @@
+// container for projects and background
 .main {
     display: grid;
-    
     grid-template-columns: 1.5fr 0.1fr 1.5fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
@@ -9,6 +9,9 @@
 
       .section-main {
           border: 1px solid;
+      }
+      h1 {
+        text-align: center;
       }
      
 
@@ -26,5 +29,72 @@
           margin: auto;
         cursor: pointer;
         color: darkorange;
+    }
+    // background section
+    #background-main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.4fr 1.3fr 1.3fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "."
+        "."
+        ".";
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    p {
+      border: 1px solid;
+      padding: 0 50px;
+      text-indent: 10%;
+      text-align: justify;
+      font: 1.5rem bolder;
+    }
+    // projects section
+    #projects-main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 1.4fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "."
+        ".";
+    }
+    #projects-scroll {
+      padding:25px 0 5px 25px ;
+      border: 1px solid red;
+      overflow: auto;
+      max-height: 400px;
+    }
+    .project {
+      display: flex;
+      flex-direction: row;
+      margin-top: 0;
+      img {
+        max-width: 300px;
+        min-width: 300px;
+      }
+      .project-info {
+        margin: 0 auto;
+        list-style-type: none;
+        text-align: center;
+
+          .project-links {
+            margin-top:10px;
+          }
+          a {
+            text-decoration: none; 
+            border-top: 1px solid lightgray;
+            border-right: 2px solid lightgray;
+            border-left: 2px solid lightgray;
+            border-bottom: 5px solid lightgray;
+            margin: 5px;
+            padding: 2px;
+            box-shadow: 0 0 0 1px ;
+            border-radius: 3px;
+            color: inherit;
+          }
+      }
     }
   }

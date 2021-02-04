@@ -3,16 +3,28 @@ import '../introduction-section/introduction.scss';
 import {Link} from 'react-scroll';
 import { faLongArrowAltDown, faLongArrowAltUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useSelector } from 'react-redux';
 
 function Main() {
+
+  // user broken down into segments
+  const user = useSelector(state => state.user);
+  const background = user.background1;
+  const backgroundTwo = user.background2;
+  const projects = user.projects;
+
+  console.log(projects);
+
     return (
       <div className="main" id='section-two'>
         {/* background section area */}
-        <div id='background-main' className='section-main'>
-          <header>
-            <h1>Background</h1>
-          </header>
-        </div>
+        <section id='background-main' className='section-main'>
+            <header>
+              <h1>Background</h1>
+            </header>
+            <p>{background}</p>
+            <p>{backgroundTwo}</p>
+        </section>
 
       {/* arrows for scrolling up and down */}
         <div id='arrows-main' className='section-main'>
@@ -39,11 +51,33 @@ function Main() {
           </div>
         </div>
       {/* projects section area */}
-        <div id='projects-main' className='section-main'>
+        <section id='projects-main' className='section-main'>
           <header>
             <h1>Projects</h1>
           </header>
-        </div>
+          <div id='projects-scroll'>
+            {
+              projects.map(project => (
+
+                <div className='project'>
+                  <div className='project-image'>
+                    <img src={project.image}/>
+                  </div>
+                  <div className='project-info'>
+                    <h3>{project.title}</h3>
+                    <li>{project.description}</li>
+                    <li>{project.skillsUsed}</li>
+                    <div className='project-links'>
+                      <a href={project.github}>Github</a>
+                      <a href={project.url}>Website</a>
+                    </div>
+                  </div>
+                </div>
+              ))
+
+            }
+          </div>
+        </section>
       </div>
     );
   }
