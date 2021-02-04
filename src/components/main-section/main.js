@@ -64,11 +64,11 @@ function Main() {
                     <img src={project.image} alt={project.title}/>
                   </div>
                   <div className='project-info'>
-                    <h3>{project.title}</h3>
+                    <h4>{project.title}</h4>
                     <li>{project.description}</li>
                     <li>{project.skillsUsed}</li>
                     <div className='project-links'>
-                      <a href={project.github}>Github</a>
+                      <a href={project.github}>Code</a>
                       <a href={project.url}>Website</a>
                     </div>
                   </div>
