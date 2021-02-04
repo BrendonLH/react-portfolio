@@ -19,9 +19,7 @@ function Main() {
         {/* background section area */}
         <section id='background-main' className='section-main'>
             <header>
-              <h1>
-                Background
-              </h1>
+              <h1>Background</h1>
             </header>
             <p>{background}</p>
             <p>{backgroundTwo}</p>
@@ -52,11 +50,14 @@ function Main() {
           </div>
         </div>
       {/* projects section area */}
-        <div id='projects-main' className='section-main'>
+        <section id='projects-main' className='section-main'>
           <header>
             <h1>Projects</h1>
           </header>
-        </div>
+          <div>
+            <p>projects</p>
+          </div>
+        </section>
       </div>
     );
   }

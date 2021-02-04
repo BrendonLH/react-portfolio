@@ -1,6 +1,6 @@
+// container for projects and background
 .main {
     display: grid;
-    
     grid-template-columns: 1.5fr 0.1fr 1.5fr;
     grid-template-rows: 1fr;
     gap: 0px 0px;
@@ -27,7 +27,7 @@
         cursor: pointer;
         color: darkorange;
     }
-
+    // background section
     #background-main {
       display: grid;
       grid-template-columns: 1fr;
@@ -47,5 +47,21 @@
       text-indent: 10%;
       text-align: justify;
       font: 1.5rem bolder;
+    }
+    // projects section
+    #projects-main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 1.4fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "."
+        ".";
+    }
+    div  {
+      border: 1px solid;
+        p {
+          border:none;
+        }
     }
   }
