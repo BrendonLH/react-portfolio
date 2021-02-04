@@ -61,7 +61,7 @@ function Main() {
 
                 <div className='project'>
                   <div className='project-image'>
-                    <img src={project.image}/>
+                    <img src={project.image} alt={project.title}/>
                   </div>
                   <div className='project-info'>
                     <h3>{project.title}</h3>
