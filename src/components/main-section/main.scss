@@ -68,15 +68,23 @@
     .project {
       display: flex;
       flex-direction: row;
-      margin-top: 0;
+      margin-bottom: 5%;
       img {
+        max-height: 150px;
         max-width: 300px;
         min-width: 300px;
       }
       .project-info {
-        margin: 0 auto;
+        margin: auto;
         list-style-type: none;
         text-align: center;
+        :nth-child(3) {
+          list-style-type: square;
+        }
+
+          h4 {
+            margin:0;
+          }
 
           .project-links {
             margin-top:10px;

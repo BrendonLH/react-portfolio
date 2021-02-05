@@ -9,20 +9,47 @@
       background-color: lightgray;
 
       .links {
-        //   border: 1px solid;
           margin: auto;
           img {
-              min-width: 100px;
-              max-width: 100px;
+            min-width: 100px;
+            max-width: 100px;
           }
+          img:hover{
+            animation: blink .2s step-end infinite alternate; 
+
+          }
+          @keyframes blink { 
+            50% { 
+              border-bottom: 30px solid transparent;
+            } 
+         }
+
           a {
-              color: inherit;
+            color: inherit;
           }
+
+          .closing-email:hover {
+            animation: blink .2s step-end infinite alternate; 
+          }
+         
       }
+
+      
 
       .next-section-butt {
         
         cursor: pointer;
         color: darkorange;
-  }
+    }
+    footer {
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover{
+      color: darkorange;
+      text-shadow: 0.5px 0.5px black;
+      text-decoration: none;
+      }
+    }
   }
