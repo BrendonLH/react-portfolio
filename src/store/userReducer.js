@@ -1,4 +1,6 @@
 // fill out profile information here to update each section
+
+
 const user = {
     userName: 'Brendon',
     email:'brendonhampton1988@gmail.com',
@@ -11,39 +13,40 @@ const user = {
 
     background2:'I come from a sales environment and I believe the gap between the customer and product is communication and in sales, communication is 99% of getting the right product for the right person. I feel this is lacking in the tech environment and I can help fill that gap.',
 
-    // fill out as many as you need as they are mapped over anyways, you can add more remove them as needed.
+    // fill out as many as you need as they are mapped over anyways, you can add more remove them as needed. 
+ 
     projects: [
         {
-            title:'project 1',
-            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
-            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
-            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-            github: 'github',
-            url:'url'
+            title:'React Portfolio',
+            description: 'Application designed to be a fill in the blank template for anyone that wants to use for their own portfolio. ',
+            skillsUsed: ['React ','Redux ','Sass'],
+            image:'',
+            github: 'https://github.com/BrendonLH/react-portfolio',
+            url:'https://brendonh-react-portfolio.netlify.app/'
         },
         {
-            title:'project 2',
-            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
-            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
-            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-            github: 'github',
-            url:'url'
+            title:'Munchkin',
+            description: 'Web application modeled after the popular card game Munchkin using microservices.',
+            skillsUsed: ['React ','Socket.io ','MongoDB'],
+            image:'',
+            github: 'https://github.com/meanJerkTime/401-final-react',
+            url:'https://munchkin.netlify.app/'
         },
         {
-            title:'project 3',
-            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
-            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
-            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-            github: '#',
-            url:'#'
+            title:'MeMeal',
+            description: 'User basic login to Lookup Recipes based on food allergies and caloric needs. ',
+            skillsUsed: ['Node.js ','Express ','PostgreSQL'],
+            image:'',
+            github: 'https://github.com/Team-Pickle-juice/code-301-food-app',
+            url:'https://food-app-final301.herokuapp.com/'
         },
         {
-            title:'project 4',
-            description: 'add a description of the project and what it is used for here. A basic outsline is sufficient.',
-            skillsUsed: ['skill 1 ','skill 2 ','skill 3'],
-            image:'https://images.unsplash.com/photo-1610513320995-1ad4bbf25e55?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm90JTIwYXZhaWxhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60',
-            github: 'github',
-            url:'url'
+            title:'Escape Room',
+            description: 'This game allows the user to have a virtual escape room experience. The user will need to go through the presented questions in order to escape/pass the game.',
+            skillsUsed: ['HTML ','CSS ','Javascript'],
+            image:'',
+            github: 'https://github.com/Ellie-Lucky-Go-Mochi/Escape-Room',
+            url:'https://ellie-lucky-go-mochi.github.io/Escape-Room/'
         }
         
     ]
