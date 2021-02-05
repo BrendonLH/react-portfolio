@@ -13,11 +13,9 @@ function Introduction() {
 
     return (
       <div id='section-one' className="intro intro-container">
-        <div className='intro-one typewriter'>
-          <h1 className='typewriter'>Hello World!</h1>
-        </div>
-        <div className='intro-two typewriter'>
-        <h2 className='typewriter-text'>My name is {name} and I am A Software Developer.</h2>
+        <div className='intro typewriter'>
+          <h1>Hello World,</h1>
+          <h2 className='typewriter-text'>My name is {name} and I am A Software Developer.</h2>
         </div>
         {/*  move to next section */}
         <div className='next-section-butt'>

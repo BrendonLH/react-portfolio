@@ -1,5 +1,6 @@
 .App {
   display: grid;
+  font-size: 1.3rem;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 0px 0px;
@@ -11,10 +12,12 @@
     .intro, .main, .links-closing {
       min-height: 100vh;
       max-height: 100vh;
+      max-height: 100vw;
+      max-height: 100vw;
     }
 
     * {
-      font-family: Courier, monospace;
+      font-family: 'Source Code Pro', monospace;  
     }
   }
   
