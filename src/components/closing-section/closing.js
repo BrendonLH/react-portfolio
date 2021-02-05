@@ -43,14 +43,20 @@ function Closing() {
           <a href={faceBook}>
             <img alt='Facebook Link' src='https://lh3.googleusercontent.com/proxy/ih6ckqD8DH-d6ZFx0skmm56WHaXQqyRkfOeZcuK_JTf4DZdJ5S7njBe7YRwHJ4MXWypJz6efp0DY4rowk8B4NyKSflFcVDq1CEeJbO_lb5b2CBLuqMq4HpOKToAgKXKSDd2x-0f0f3TlmnQeKJmppFCTa8OOOOuV73OZMQzqHvWD4D1bynkLU6N_TRVe63yNJwQ=s0-d'/>
           </a>
+          
         </div>
         {
           <div className='links'>
             <a href={email}>
-              <FontAwesomeIcon alt='Email Link' icon={faEnvelopeSquare} size='6x' />
+              <FontAwesomeIcon className='closing-email' alt='Email Link' icon={faEnvelopeSquare} size='6x' />
             </a>
           </div>
         }
+        <footer>
+          <p>Created By 
+            <a href='https://www.linkedin.com/in/brendon-hampton-37132899/'> Brendon Hampton</a> 
+          </p>
+        </footer>
         
       </div>
     );

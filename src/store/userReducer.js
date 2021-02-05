@@ -19,32 +19,32 @@ const user = {
         {
             title:'React Portfolio',
             description: 'Application designed to be a fill in the blank template for anyone that wants to use for their own portfolio. ',
-            skillsUsed: ['React ','Redux ','Sass'],
-            image:'',
+            skillsUsed: ['React, ','Redux, ','Sass'],
+            image:'https://github.com/BrendonLH/react-portfolio/blob/master/src/assets/images/portfolio.png?raw=true',
             github: 'https://github.com/BrendonLH/react-portfolio',
             url:'https://brendonh-react-portfolio.netlify.app/'
         },
         {
             title:'Munchkin',
             description: 'Web application modeled after the popular card game Munchkin using microservices.',
-            skillsUsed: ['React ','Socket.io ','MongoDB'],
-            image:'',
+            skillsUsed: ['React, ','Socket.io, ','MongoDB'],
+            image:'https://github.com/BrendonLH/react-portfolio/blob/master/src/assets/images/munchkin.jpeg?raw=true',
             github: 'https://github.com/meanJerkTime/401-final-react',
             url:'https://munchkin.netlify.app/'
         },
         {
             title:'MeMeal',
             description: 'User basic login to Lookup Recipes based on food allergies and caloric needs. ',
-            skillsUsed: ['Node.js ','Express ','PostgreSQL'],
-            image:'',
+            skillsUsed: ['Node.js, ','Express, ','PostgreSQL'],
+            image:'https://github.com/BrendonLH/react-portfolio/blob/master/src/assets/images/MeMeal.JPG?raw=true',
             github: 'https://github.com/Team-Pickle-juice/code-301-food-app',
             url:'https://food-app-final301.herokuapp.com/'
         },
         {
             title:'Escape Room',
-            description: 'This game allows the user to have a virtual escape room experience. The user will need to go through the presented questions in order to escape/pass the game.',
-            skillsUsed: ['HTML ','CSS ','Javascript'],
-            image:'',
+            description: 'This game allows the user to have a virtual escape room experience.',
+            skillsUsed: ['HTML, ','CSS, ','Javascript'],
+            image:'https://github.com/BrendonLH/react-portfolio/blob/master/src/assets/images/escapeRoom.jpeg?raw=true',
             github: 'https://github.com/Ellie-Lucky-Go-Mochi/Escape-Room',
             url:'https://ellie-lucky-go-mochi.github.io/Escape-Room/'
         }
