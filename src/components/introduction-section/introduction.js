@@ -13,7 +13,7 @@ function Introduction() {
 
     return (
       <div id='section-one' className="intro intro-container">
-        <div className='intro typewriter'>
+        <div className='typewriter'>
           <h1>Hello World,</h1>
           <h2 className='typewriter-text'>My name is {name} and I am A Software Developer.</h2>
         </div>
