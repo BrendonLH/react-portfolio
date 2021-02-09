@@ -105,3 +105,42 @@
     }
   }
 
+  @media only screen and (max-width: 1100px) {
+    .main{
+      display: grid;
+      grid-template-columns: 2.2fr 0.2fr;
+      grid-template-rows: 0.6fr 0.6fr;
+      gap: 0px 0px;
+      grid-template-areas:
+        "background arrows"
+        "projects arrows";
+        #projects-scroll{
+          max-height: 450px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          #projects-scroll {
+            max-height: 300px;
+            }
+          }
+    }
+     #arrows-main{
+       grid-area: arrows;
+     }
+     #background-main{
+       grid-area: background;
+     }
+     #projects-main{
+       grid-area: projects;
+     }
+     #background-main{
+       margin: auto;
+       max-width: 90%;
+     }
+     #project-id {
+       margin: 0;
+     }
+     
+
+}
+

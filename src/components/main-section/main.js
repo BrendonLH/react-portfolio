@@ -28,7 +28,7 @@ function Main() {
 
       {/* arrows for scrolling up and down */}
         <div id='arrows-main' className='section-main'>
-          <div className='next-section-butt'>
+          <div id='arrow-up' className='next-section-butt'>
             <Link
               activeClass="active"
               to="section-one"
@@ -39,7 +39,7 @@ function Main() {
             ><FontAwesomeIcon icon={faLongArrowAltUp} size='2x' /></Link>
           </div>
 
-          <div className='next-section-butt'>
+          <div id='arrow-down' className='next-section-butt'>
             <Link
               activeClass="active"
               to="section-three"
@@ -59,7 +59,7 @@ function Main() {
             {
               projects.map(project => (
 
-                <div className='project'>
+                <div id="project-id" className='project'>
                   <div className='project-image'>
                     <img src={project.image} alt={project.title}/>
                   </div>
