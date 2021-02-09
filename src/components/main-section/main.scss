@@ -114,6 +114,15 @@
       grid-template-areas:
         "background arrows"
         "projects arrows";
+        #projects-scroll{
+          max-height: 450px;
+        }
+
+        @media only screen and (max-width: 768px) {
+          #projects-scroll {
+            max-height: 300px;
+            }
+          }
     }
      #arrows-main{
        grid-area: arrows;
@@ -128,5 +137,10 @@
        margin: auto;
        max-width: 90%;
      }
+     #project-id {
+       margin: 0;
+     }
+     
 
 }
+

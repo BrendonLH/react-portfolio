@@ -59,7 +59,7 @@ function Main() {
             {
               projects.map(project => (
 
-                <div className='project'>
+                <div id="project-id" className='project'>
                   <div className='project-image'>
                     <img src={project.image} alt={project.title}/>
                   </div>
