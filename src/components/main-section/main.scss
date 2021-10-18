@@ -17,15 +17,16 @@
         display: grid;
         grid-template-columns: 1.5fr;
         grid-template-rows: 1fr 1fr;
-        gap: 0px 0px;
         grid-template-areas:
           "."
           ".";
+          align-items:center;
+          margin: auto;
       }
       .next-section-butt {
-          margin: auto;
         cursor: pointer;
         color: darkorange;
+        padding: 10vh 0;
     }
     // background section
     #background-main {
@@ -45,7 +46,7 @@
       padding: 0 50px;
       text-indent: 10%;
       text-align: justify;
-      font: 1.5rem bolder;
+      font: 2em bolder;
     }
     // projects section
     #projects-main {
@@ -115,17 +116,18 @@
         "background arrows"
         "projects arrows";
         #projects-scroll{
-          max-height: 450px;
+          max-height: 250px;
         }
 
         @media only screen and (max-width: 768px) {
           #projects-scroll {
-            max-height: 300px;
+            max-height: 100px;
             }
           }
     }
      #arrows-main{
        grid-area: arrows;
+      //  margin-bottom: 500px;
      }
      #background-main{
        grid-area: background;
@@ -134,8 +136,7 @@
        grid-area: projects;
      }
      #background-main{
-       margin: auto;
-       max-width: 90%;
+      
      }
      #project-id {
        margin: 0;
