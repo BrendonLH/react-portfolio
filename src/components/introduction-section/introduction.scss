@@ -72,6 +72,26 @@
     }
     
 }
+// tablet
+@media only screen and (max-height: 765px) {
+    .intro-container {
+        .typewriter {
+            padding: 0;
+        }
+        
+    }
+  
+}
+
+// mobile
+@media only screen and (max-height: 675px) {
+  
+  }
+  
+  @media only screen and (max-width: 320px) {
+    
+  
+  }
 
   
   
