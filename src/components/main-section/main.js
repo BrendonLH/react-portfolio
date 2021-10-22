@@ -24,12 +24,14 @@ function Main() {
         <header>
           <h1>Background</h1>
         </header>
-        <p>
-          {background}
-          <br />
-          <br />
-          {backgroundTwo}
-        </p>
+        <div id="background-paragraph">
+          <p>
+            {background}
+            <br />
+            <br />
+            {backgroundTwo}
+          </p>
+        </div>
       </section>
 
       {/* arrows for scrolling up and down */}
