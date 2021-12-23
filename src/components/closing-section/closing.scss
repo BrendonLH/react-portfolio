@@ -11,8 +11,7 @@
       .links {
           margin: auto;
           img {
-            min-width: 100px;
-            max-width: 100px;
+            width: 100px;
           }
           img:hover{
             animation: blink .2s step-end infinite alternate; 
@@ -50,6 +49,19 @@
       color: darkorange;
       text-shadow: 0.5px 0.5px black;
       text-decoration: none;
+      }
+    }
+  }
+
+  @media only screen and (max-height: 675px) {
+    .links-closing {
+      .links {
+        img {
+          width: 40px;
+        }
+        .closing-email {
+          width: 40px;
+        }
       }
     }
   }
