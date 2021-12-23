@@ -74,23 +74,22 @@
 }
 // tablet
 @media only screen and (max-height: 765px) {
-    .intro-container {
-        .typewriter {
-            padding: 0;
-        }
-        
-    }
-  
+    
 }
 
 // mobile
 @media only screen and (max-height: 675px) {
-  
-  }
-  
-  @media only screen and (max-width: 320px) {
-    
-  
+    .intro-container {
+        font-size: 20px;
+        .typewriter-text {
+            // max-width: 50%;
+            white-space: normal;
+            word-wrap: break-word;  
+            color: rgba(12, 11, 11, 0.7);
+            animation:none;
+        }
+        
+    }
   }
 
   

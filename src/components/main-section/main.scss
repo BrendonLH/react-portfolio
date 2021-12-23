@@ -124,7 +124,30 @@
 
 // mobile
 
+@media only screen and (max-height: 675px) {
+  .main {
+    h1 {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    font-size: 10px;
+    #projects-main {
+      border: 1px solid red;
+      #projects-scroll {
+        padding-bottom:0;
+      }
+      .project-links {
+        padding-bottom: 10px;
+      }
+      
+      .project {
+        flex-direction: column;
+        margin-bottom: 5px;
+      }
 
+    }
+  }
+}
 
 
 
