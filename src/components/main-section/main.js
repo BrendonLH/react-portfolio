@@ -69,7 +69,7 @@ function Main() {
         </header>
         <div id="projects-scroll">
           {projects.map((project) => (
-            <div id="project-id" className="project">
+            <div key={project.title} id="project-id" className="project">
               <div className="project-image">
                 <img src={project.image} alt={project.title} />
               </div>
