@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSelector } from "react-redux";
+import faceBookLogo from '../../assets/images/logos/facebook.png';
 
 function Closing() {
   const userEmail = useSelector((state) => state.user.email);
@@ -28,7 +29,7 @@ function Closing() {
         <a href={gitHub}>
           <img
             alt="Github Link"
-            src="https://maxcdn.icons8.com/Share/icon/p1em/Logos/github1600.png"
+            src="https://th.bing.com/th/id/R.9230943f4e960d4311f3c8b9c28d92ab?rik=SCK0sB8EXFwNkA&pid=ImgRaw&r=0"
           />
         </a>
       </div>
@@ -46,11 +47,11 @@ function Closing() {
           </Link>
         </div>
       </div>
-      <div className="links">
+      <div className="links" id="facebookLogo">
         <a href={faceBook}>
           <img
             alt="Facebook Link"
-            src="https://lh3.googleusercontent.com/proxy/ih6ckqD8DH-d6ZFx0skmm56WHaXQqyRkfOeZcuK_JTf4DZdJ5S7njBe7YRwHJ4MXWypJz6efp0DY4rowk8B4NyKSflFcVDq1CEeJbO_lb5b2CBLuqMq4HpOKToAgKXKSDd2x-0f0f3TlmnQeKJmppFCTa8OOOOuV73OZMQzqHvWD4D1bynkLU6N_TRVe63yNJwQ=s0-d"
+            src={faceBookLogo}
           />
         </a>
       </div>
