@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useSelector } from "react-redux";
+import faceBookLogo from '../../assets/images/logos/facebook.png';
 
 function Closing() {
   const userEmail = useSelector((state) => state.user.email);
@@ -46,11 +47,11 @@ function Closing() {
           </Link>
         </div>
       </div>
-      <div className="links">
+      <div className="links" id="facebookLogo">
         <a href={faceBook}>
           <img
             alt="Facebook Link"
-            src="https://osterhout.info/wp-content/uploads/2020/02/facebook-logo-4.png"
+            src={faceBookLogo}
           />
         </a>
       </div>
