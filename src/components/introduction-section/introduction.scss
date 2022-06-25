@@ -42,46 +42,8 @@
       }
   }
 
-  @media only screen and (max-width: 1200px) {
-    .intro-container{
-        all: initial;
-        background-color: lightgray;
-        .next-section-butt{
-            // display: flex;
-            justify-content: center;
-            // margin: auto;
-            cursor: pointer;
-            color: darkorange;
-        }
-        .typewriter{
-            padding: initial;
-            margin-top: 50%;
-            font-size: 100%;
-        }
-        .typewriter-text {
-            border: none;
-            // padding: initial;
-        }
-        h2 {
-            // padding-left: 10%;
-        }
-    }
-    
-}
-// tablet
-// mobile
-@media only screen and (max-height: 675px) {
-    // .intro-container {
-    //     // font-size: 20px;
-    //     .typewriter-text {
-    //         white-space: normal;
-    //         word-wrap: break-word;  
-    //         color: rgba(12, 11, 11, 0.7);
-    //         animation:none;
-    //     }
-        
-    // }
-  }
+
+  
 
   
   
