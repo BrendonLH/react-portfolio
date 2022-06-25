@@ -2,15 +2,12 @@ import './introduction.scss';
 import {Link} from 'react-scroll';
 import { faLongArrowAltDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import {useSelector} from 'react-redux';
 
 function Introduction() {
 
   const name = useSelector( state => state.user.userName);
  
-
-
     return (
       <div id='section-one' className="intro intro-container">
         <div className='typewriter'>

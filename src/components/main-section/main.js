@@ -1,5 +1,5 @@
 import "./main.scss";
-import "../introduction-section/introduction.scss";
+// import "../introduction-section/introduction.scss";
 import { Link } from "react-scroll";
 import {
   faLongArrowAltDown,
